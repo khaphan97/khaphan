@@ -1,0 +1,109 @@
+.content>h4 {
+    display: inline-block;
+    margin-left: 55px;
+    color: #cba744;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.content>ul {
+    margin: 0;
+    padding: 0;
+}
+
+.content li {
+    list-style: none;
+    width: 22%;
+    text-align: center;
+    box-sizing: border-box;
+    margin-right: 10px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.content li:hover {
+    box-shadow: 0 0 5px black;
+}
+
+.content>ul>li>a>img {
+    max-width: 100%;
+    /* border-radius: 50px; */
+}
+
+.content>ul>li>a>img:hover {
+    opacity: 50%;
+}
+
+.content p {
+    color: #cba744;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.buy-now {
+    height: 30px;
+    margin: 10px 0;
+    padding-top: 15px;
+    background-color: #cba744;
+    position: absolute;
+    width: 100%;
+    bottom: -100px;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    transition: .5s;
+}
+
+.buy-now:hover {
+    background-color: #709947;
+    transition: .5s;
+}
+
+.content li:hover>.buy-now {
+    bottom: -10px;
+    transition: .5s;
+}
+
+.content span {
+    color: #709947;
+    font-weight: bold;
+    margin-bottom: 50px;
+    display: block;
+}
+
+.first-product {
+    margin-left: 55px;
+}
+
+.content .page-number {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content .page-number>span {
+    display: inline-block;
+    color: #cba744;
+}
+
+.content .page-number>a {
+    text-decoration: none;
+    margin: 20px;
+    padding-top: 4px;
+    font-weight: bold;
+    color: #cba744;
+    border-radius: 50%;
+    display: inline-block;
+    width: 25px;
+    height: 20px;
+    transition: .5s;
+}
+
+.content .page-number>a:hover {
+    background-color: black;
+    transition: .5s;
+}

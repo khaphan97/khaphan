@@ -1,0 +1,27 @@
+.content {
+    margin: 0 90px;
+}
+
+.content>h1 {
+    color: #cba744;
+}
+
+.content>h4 {
+    color: #cba744;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.content>p {
+    color: black;
+    font-size: 15px;
+}
+
+.content>a {
+    color: black;
+    text-decoration: none;
+}
+
+.content>a:hover {
+    color: #cba744;
+}
